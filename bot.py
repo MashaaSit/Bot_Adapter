@@ -13,7 +13,7 @@ from create_bot import dp
 async def on_startup(_):
     print('Бот вышел в онлайн')
 
-from handlers import client, admin, other
+from handlers import admin, client, other
 
 client.register_handlers_client(dp)
 # other.register_handlers_other(dp)
